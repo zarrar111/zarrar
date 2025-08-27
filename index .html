@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            background-color: antiquewhite;
+            width:1000px ;
+            height:90px ;
+        }
+        h1{
+            margin-left: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        h4{
+            margin-left: 30px;
+        }
+    b{
+    margin-left: 20px;
+}
+form{
+    margin-left: 90px;
+}
+h2{
+    font-size:xx-large;
+text-align: center;
+    margin-top: 160px;
+}
+h3{
+    font-size: xxx-large;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+ .banner-card{
+    position: relative;
+ width: 1000px;
+ height: 700px;
+ }
+ .banner-text{
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+ }
+ .header{
+    position: absolute;
+    left: 45%;
+    top: 110%;
+    font-size: xxx-large;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .image{
+position: absolute;
+top: 130%;
+left: 5%;
+ }
+.frm{
+    position: absolute;
+    top: 130%;
+    left: 43%;
+ gap: 10%;
+
+}
+ .package{
+    position: absolute;
+    left: 42.5%;
+    top: 180%;
+    font-size: xxx-large;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .box1{
+background-color: rgb(255, 255, 255);
+width: 300px;
+height: 450px;
+position: absolute;
+top: 205%;
+left: 3.25%;
+border-radius: 5%;
+box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+ .photo{
+    position: absolute;
+ }
+ .bold1{
+    position: absolute;
+    top: 43%;
+    left: 3%;
+    font-size: x-large;
+ }
+ .paragraph{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+ }
+  .stars{
+    position: absolute;
+    font-size: xx-large;
+    top: 60%;
+    left: 5%;
+ }
+  .text{
+    position: absolute;
+    font-size: x-large;
+    top: 73%;
+    left: 5%;
+ }
+ .tag{
+    position: absolute;
+    background-color: rgb(255, 186, 57);
+    text-align: center;
+    padding: 10px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 70px;
+    height: 30px;
+    top: 85%;
+    left: 5%;
+    border-radius: 5%;
+    margin-top: 10px;
+    font-size: x-large;
+ }
+ 
+ 
+ .box2{
+background-color: rgb(255, 255, 255);
+width: 300px;
+height: 450px;
+position: absolute;
+top: 205%;
+left: 36%;
+border-radius: 5%;
+box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+ 
+ 
+ 
+ .box3{
+background-color: rgb(255, 255, 255);
+width: 300px;
+height: 450px;
+position: absolute;
+top: 205%;
+left: 68.5%;
+border-radius: 5%;
+box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+
+
+ .bold2{
+    position: absolute;
+    top: 43%;
+    left: 14%;
+    font-size: x-large;
+ } 
+ .bold3{
+    position: absolute;
+    top: 43%;
+    left: 27%;
+    font-size: x-large;
+ }
+ .packages{
+    position: absolute;
+    left: 42.5%;
+    top: 275%;
+    font-size: xxx-large;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .box4{
+background-color: rgb(255, 255, 255);
+width: 300px;
+height: 450px;
+position: absolute;
+top: 300%;
+left: 3.25%;
+border-radius: 5%;
+box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+ .bold4{
+    position: absolute;
+    top: 43%;
+    left: 22%;
+    font-size: x-large;
+ }
+ .bold5{
+     position: absolute;
+    top: 43%;
+    left: 13%;
+    font-size: x-large;
+ } 
+  .box5{
+background-color: rgb(255, 255, 255);
+width: 300px;
+height: 450px;
+position: absolute;
+top: 300%;
+left: 36%;
+border-radius: 5%;
+box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+ .bold6{
+    position: absolute;
+    top: 43%;
+    left: 27%;
+    font-size: x-large;
+ }
+  .box6{
+background-color: rgb(255, 255, 255);
+width: 300px;
+height: 450px;
+position: absolute;
+top: 300%;
+left: 68.5%;
+border-radius: 5%;
+box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+ .service{
+    position: absolute;
+    left: 42.5%;
+    top: 370%;
+    font-size: xxx-large;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .card1{
+    background-color: rgb(255, 255, 255);
+width: 300px;
+height: 300px;
+position: absolute;
+top: 395%;
+left: 3.25%;
+border-radius: 5%;
+box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+ .sticker1{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-size: xxx-large;
+ }
+ .head1{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+ font-size: xx-large;
+
+ }
+ .paragraph1{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    font-size: large;
+ }
+ .card2{
+    background-color: rgb(255, 255, 255);
+width: 300px;
+height: 300px;
+position: absolute;
+top: 395%;
+left: 36%;
+border-radius: 5%;
+box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+  .sticker2{
+    position: absolute;
+    top: 12%;
+    left: 37%;
+    font-size: xxx-large;
+ }
+ .head2{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+ font-size: xx-large;
+
+ }
+ .card3{
+    background-color: rgb(255, 255, 255);
+width: 300px;
+height: 300px;
+position: absolute;
+top: 395%;
+left: 68.5%;
+border-radius: 5%;
+box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+  .sticker3{
+    position: absolute;
+    top: 12%;
+    left: 37%;
+    font-size: xxx-large;
+ }
+ .head3{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+ font-size: xx-large;
+
+ }
+ .services{
+    position: absolute;
+    left: 42.5%;
+    top: 440%;
+    font-size: xxx-large;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .card4{
+        background-color: rgb(255, 255, 255);
+width: 300px;
+height: 300px;
+position: absolute;
+top: 465%;
+left: 3.25%;
+border-radius: 5%;
+box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+  .sticker4{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    font-size: xxx-large;
+ }
+ .head4{
+    position: absolute;
+    top: 20%;
+    left: -1%;
+ font-size: xx-large;
+
+ }
+ .paragraph1{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    font-size: large;
+ }
+ .card5{
+    background-color: rgb(255, 255, 255);
+width: 300px;
+height: 300px;
+position: absolute;
+top: 465%;
+left: 36%;
+border-radius: 5%;
+box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+  .sticker5{
+    position: absolute;
+    top: 12%;
+    left: 37%;
+    font-size: xxx-large;
+ }
+ .head5{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+ font-size: xx-large;
+
+ }
+
+ .card6{
+    background-color: rgb(255, 255, 255);
+width: 300px;
+height: 300px;
+position: absolute;
+top: 465%;
+left: 68.5%;
+border-radius: 5%;
+box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+   .sticker6{
+    position: absolute;
+    top: 12%;
+    left: 37%;
+    font-size: xxx-large;
+ }
+ .head6{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+ font-size: xx-large;
+
+ }
+ .gallery{
+        position: absolute;
+    left: 42.5%;
+    top: 510%;
+    font-size: xxx-large;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .shabnam{
+    position: absolute;
+    height: 310px;
+    top:538% ;
+    left:3.25% ;
+    box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+ .shabeer{
+    position: absolute;
+      height: 310px;
+    top: 538%;
+    left: 37%;
+    box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+ .shagufta{
+     position: absolute;
+       height: 310px;
+    top: 538%;
+    left: 68%;
+    box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .gallerys{
+        position: absolute;
+    left: 42.5%;
+    top: 585%;
+    font-size: xxx-large;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .shabnam1{
+    position: absolute;
+      height: 310px;
+    top:618% ;
+    left:3.25% ;
+    box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+ .shabeer2{
+    position: absolute;
+      height: 310px;
+    top: 618%;
+    left: 37%;
+    box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+ .shagufta3{
+     position: absolute;
+       height: 310px;
+    top: 618%;
+    left: 68%;
+    box-shadow: 3px 3px 8px 8px rgb(189, 188, 188);
+ }
+ .ABOUT{
+            position: absolute;
+    left: 42.5%;
+    top: 668%;
+    font-size: xxx-large;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .abouts{
+    position: absolute;
+    top: 700%;
+    left: 5%;
+ }
+ .texts{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    top: 692%;
+    left: 50%;
+ }
+ .pra{
+        position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: x-large;
+    top: 709%;
+    left: 53%;
+ }
+ .travel{
+            position: absolute;
+    left: 42.5%;
+    top:770%;
+    font-size: xxx-large;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .pro{
+    position: absolute;
+    top:790% ;
+    left: 15%;
+ }
+  .po{
+    position: absolute;
+    font-size: larger;
+    top:795% ;
+    left: 35%;
+ }
+   .pot{
+    position: absolute;
+    font-size: larger;
+    top:795% ;
+    left: 45%;
+ }
+    .pos{
+    position: absolute;
+    font-size: larger;
+    top:795% ;
+    left: 55%;
+ }
+    .pok{
+    position: absolute;
+    font-size: larger;
+    top:795% ;
+    left: 65%;
+ }
+ .zarrar{
+    position: absolute;
+    top:795% ;
+    left: 32.5%;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <table>
+        <tr>
+           
+<td>  <h1>TRAVEL</h1></td>
+ <td><h4> <b>BOOK</b></h4></td>
+   <td> <b>PACKAGE</b></td>
+   <td> <b>SERVICE</b></td>
+   <td> <b>GALLERY</b></td>
+   <td> <b>ABOUT US</b></td>
+   <td><form>
+       <input type="text" id="search" name="search" value="search" />
+  <input type="button" id="search" name="search" value="search" />
+</form></td>
+    </tr>
+    </table>
+</div>
+<!-- <div class="image">
+   <div class="pic"> <img src="C:\Users\user\Pictures\Saved Pictures\australia.jpg"alt="Australia" width="1005px" height="1005px"></div>
+<div class="home"><h2>Welcome To Home</h2></div>
+<div class="visitation"><h3>Visit Pakistan</h3></div>
+</div> -->
+<div class="banner-card">
+
+    <img src="C:\Users\user\Pictures\Saved Pictures\pakistan.jpg" width="1000px" height="700px">
+    <div class="banner-text">
+        <h2>Welcome To Home</h2>
+        <h3>Visit Pakistan</h3>
+
+    </div>
+</div>
+<div class="header"><h6>BOOK</h6></div>
+<div class="image">
+<img src="C:\Users\user\Pictures\Saved Pictures\g1 (1).jpg" width="450px" height="300px">
+</div>
+<div class="frm">
+    <form>
+             <input type="text" class="form-control" placeholder="Where to" required="" size="45" ><br>
+             <input type="text" class="form-control" placeholder="How many" required=""size="45"> <br>
+             <input type="date" class="form-control" placeholder="Arrival" required=""size="45"><br>
+             <input type="date" class="form-control" placeholder="Leaving" required=""size="45"><br>
+             <textarea class="form-control" rows="5" name="text" placeholder="Enter Your name &amp; Details"size="45"></textarea><br>
+            <input type="Submit" value="Book Now" class="submit" required=""size="45">
+ </form>
+</div>
+<div class="package">
+    <h5>PACKAGE</h5>
+</div>
+<!-- <div class="card" style="width: 18rem;">
+  <img src="C:\Users\user\Pictures\Saved Pictures\france.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+  </div>
+</div> -->
+<div class="box1">
+    <div class="photo">
+        <img src="C:\Users\user\Pictures\Saved Pictures\PK_Karachi_asv2020-02_img52_Mazar-e-Quaid.jpg" width="300px" height="200px">
+    </div>
+    <div class="bold1"><h4>UNITED KINGDOM</h4></div>
+    <div class="paragraph">
+        Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.
+    </div>
+    <div class="stars"><h5>★★★☆☆</h5></div>
+    <div class="text"><h5>PRICE:$500</h5></div>
+    <div class="tag">Book</div>
+</div>
+<div class="box2">
+    <div class="photo">
+        <img src="C:\Users\user\Pictures\Saved Pictures\australia.jpg" width="300px" height="200px">
+    </div>
+    <div class="bold2"><h4>AUSTRALIA</h4></div>
+    <div class="paragraph">
+        Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.
+    </div>
+    <div class="stars"><h5>★★★☆☆</h5></div>
+    <div class="text"><h5>PRICE:$500</h5></div>
+    <div class="tag">Book</div>
+</div>
+<div class="box3">
+    <div class="photo">
+        <img src="C:\Users\user\Pictures\Saved Pictures\italy.avif" width="300px" height="200px">
+    </div>
+    <div class="bold3"><h4>ITALY</h4></div>
+    <div class="paragraph">
+        Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.
+    </div>
+    <div class="stars"><h5>★★★☆☆</h5></div>
+    <div class="text"><h5>PRICE:$500</h5></div>
+    <div class="tag">Book</div>
+</div>
+<div class="packages">
+    <h5>PACKAGE</h5>
+</div>
+<div class="box4">
+    <div class="photo">
+        <img src="C:\Users\user\Pictures\Saved Pictures\france.jpg" width="300px" height="200px">
+    </div>
+    <div class="bold4"><h4>FRANCE</h4></div>
+    <div class="paragraph">
+        Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.
+    </div>
+    <div class="stars"><h5>★★★☆☆</h5></div>
+    <div class="text"><h5>PRICE:$500</h5></div>
+    <div class="tag">Book</div>
+</div>
+<div class="box5">
+    <div class="photo">
+        <img src="C:\Users\user\Pictures\Saved Pictures\g3.jpg" width="300px" height="200px">
+    </div>
+    <div class="bold5"><h4>WEST INDIES</h4></div>
+    <div class="paragraph">
+        Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.
+    </div>
+    <div class="stars"><h5>★★★☆☆</h5></div>
+    <div class="text"><h5>PRICE:$500</h5></div>
+    <div class="tag">Book</div>
+</div>
+<div class="box6">
+    <div class="photo">
+        <img src="C:\Users\user\Pictures\Saved Pictures\g2.jpg" width="300px" height="200px">
+    </div>
+    <div class="bold6"><h4>New zealand</h4></div>
+    <div class="paragraph">
+        Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.
+    </div>
+    <div class="stars"><h5>★★★☆☆</h5></div>
+    <div class="text"><h5>PRICE:$500</h5></div>
+    <div class="tag">Book</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="service">
+    <h5>SERVICE</h5>
+</div>
+<div class="card1">
+    <div class="sticker1">
+        🏚️
+    </div>
+    <div class="head1"><h4>Afordable Hotel</h4></div>
+    <div class="paragraph1">
+<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, hic neque dolores sapiente odit quod.</h4>
+    </div>
+</div>
+
+<div class="card2">
+    <div class="sticker2">
+        🍽️
+    </div>
+    <div class="head2"><h4>Food And Drink</h4></div>
+    <div class="paragraph1">
+<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, hic neque dolores sapiente odit quod.</h4>
+    </div>
+</div>
+<div class="card3">
+    <div class="sticker3">
+        📢
+    </div>
+    <div class="head3"><h4>Safety Guide</h4></div>
+    <div class="paragraph1">
+<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, hic neque dolores sapiente odit quod.</h4>
+    </div>
+</div>
+
+
+<div class="services">
+    <h5>SERVICE</h5>
+</div>
+<div class="card4">
+    <div class="sticker4">
+        🌍
+    </div>
+    <div class="head4"><h4>Around The World</h4></div>
+    <div class="paragraph1">
+<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, hic neque dolores sapiente odit quod.</h4>
+    </div>
+</div>
+
+<div class="card5">
+    <div class="sticker5">
+        ✈︎
+    </div>
+    <div class="head5"><h4>Fastest Travel</h4></div>
+    <div class="paragraph1">
+<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, hic neque dolores sapiente odit quod.</h4>
+    </div>
+</div>
+<div class="card6">
+    <div class="sticker6">
+        👨🏻‍✈️
+    </div>
+    <div class="head6"><h4>Adveture</h4></div>
+    <div class="paragraph1">
+<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, hic neque dolores sapiente odit quod.</h4>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="gallery">
+    <h5>GALLERY</h5>
+</div>
+<div class="shabnam">
+    <img src="C:\Users\user\Pictures\Saved Pictures\g1 (1).jpg" width="300px" height="310px">
+</div>
+
+<div class="shabeer">
+    <img src="C:\Users\user\Pictures\Saved Pictures\g2.jpg" width="300px" height="310px">
+</div>
+<div class="shagufta">
+    <img src="C:\Users\user\Pictures\Saved Pictures\g3.jpg" width="300px" height="310px">
+</div>
+
+
+
+<div class="gallerys">
+    <h5>GALLERY</h5>
+</div>
+<div class="shabnam1">
+    <img src="C:\Users\user\Pictures\Saved Pictures\g1 (1).jpg" width="300px" height="310px">
+</div>
+
+<div class="shabeer2">
+    <img src="C:\Users\user\Pictures\Saved Pictures\g2.jpg" width="300px" height="310px">
+</div>
+<div class="shagufta3">
+    <img src="C:\Users\user\Pictures\Saved Pictures\g3.jpg" width="300px" height="310px">
+</div>
+<div class="ABOUT">
+    <h5>ABOUT US</h5>
+</div>
+<div class="abouts">
+    <img src="C:\Users\user\Pictures\Saved Pictures\map.jpg" width="450px" height="250px">
+</div>
+<div class="texts">
+    <h4>HOW TRAVEL AGENCY WORK</h4>
+</div>
+<div class="pra">
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas facere libero natus? Maxime veniam repellendus ut! Optio suscipit recusandae voluptas quidem sit ut mollitia officia nobis commodi harum, asperiores sapiente.
+</div>
+<div class="travel">
+    <h5>TRAVEL</h5>
+</div>
+<div class="pro">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit atque distinctio iusto iste tenetur ipsa possimus delectus
+
+</div>
+<div class="po">
+    🦜
+</div>
+<div class="pot">
+    📷
+</div>
+<div class="pos">
+    ♻️
+</div>
+<div class="pok">
+    ⚜️
+</div>
+<div class="zarrar"
+>
+<h4>DESIGN BY ZARRAR</h4></div>
+</body>
+</html>
